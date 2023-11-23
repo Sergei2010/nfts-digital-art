@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Стартовый шаблон</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -36,10 +40,18 @@
         </a>
       </div>
       <ul class="header__list inter-h6">
-        <li><a href="#!" class="active">Marketplace</a></li>
-        <li><a href="#!">Artists</a></li>
-        <li><a href="#!">Community</a></li>
-        <li><a href="#!">Collections</a></li>
+        <li>
+          <a class="header__list_link header__list_link-active" href="#!">Marketplace</a>
+        </li>
+        <li>
+          <a class="header__list_link" href="#!">Artists</a>
+        </li>
+        <li>
+          <a class="header__list_link" href="#!">Community</a>
+        </li>
+        <li>
+          <a class="header__list_link" href="#!">Collections</a>
+        </li>
       </ul>
       <div class="header__btn">
         <button class="btn-green inter-h6">Contact</button>
@@ -53,10 +65,10 @@
 </header>
 <div class="mobile-nav">
   <ul class="mobile-nav__list inter-h6">
-    <li><a href="#" class="active">Marketplace</a></li>
-    <li><a href="#!">Artists</a></li>
-    <li><a href="#!">Community</a></li>
-    <li><a href="#!">Collections</a></li>
+    <li><a class="header__list_link" href="#!" class="active">Marketplace</a></li>
+    <li><a class="header__list_link" href="#!">Artists</a></li>
+    <li><a class="header__list_link" href="#!">Community</a></li>
+    <li><a class="header__list_link" href="#!">Collections</a></li>
   </ul>
 </div>
 
@@ -79,7 +91,7 @@
         <div class="hero__btns">
           <button class="btn-green inter-h6">Explore Now</button>
 
-          <a class="inter-h6" href="!#">Learn More</a>
+          <a class="inter-h6" href="#!">Learn More</a>
         </div>
       </div>
       <div class="hero__desk">
@@ -468,6 +480,9 @@
     <img src="./img/footer/footer-img.svg" alt="footer img" />
   </div>
   <div class="container">
+    <div class="footer__img">
+      <img src="./img/footer/footer-img.svg" alt="footer img" />
+    </div>
     <div class="footer__wrap">
       <div class="footer__desc">
         <div class="footer__logo canela-h3">
@@ -482,10 +497,26 @@
           <p>collections you love. Enjoy it!</p>
         </div>
         <ul class="footer__socials">
-          <li class="footer__social"><img src="./img/footer/f.svg" alt="social icon" /></li>
-          <li class="footer__social"><img src="./img/footer/tlg.svg" alt="social icon" /></li>
-          <li class="footer__social"><img src="./img/footer/t.svg" alt="social icon" /></li>
-          <li class="footer__social"><img src="./img/footer/i.svg" alt="social icon" /></li>
+          <li class="footer__social">
+            <a href="#!" class="animate__animated animate__bounce">
+              <img src="./img/footer/f.svg" alt="social icon" />
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="#!" class="animate__animated animate__bounce">
+              <img src="./img/footer/tlg.svg" alt="social icon" />
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="#!" class="animate__animated animate__bounce">
+              <img src="./img/footer/t.svg" alt="social icon" />
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="#!" class="animate__animated animate__bounce">
+              <img src="./img/footer/i.svg" alt="social icon" />
+            </a>
+          </li>
         </ul>
       </div>
       <ul class="footer__lists">
